@@ -1,2 +1,3 @@
-# tips-and-tricks-with-curl-and-jq
+# Tips and Tricks with Curl and JQ
+
 A repository showcasing tips and tricks with curl

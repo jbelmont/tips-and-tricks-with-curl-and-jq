@@ -1,0 +1,16 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: circleci/golang:1.10
+    working_directory: /go/src/github.com/packtci/go-template-example-with-circle-ci
+
+    steps:
+      - checkout
+      - run:
+          name: "Print go version"
+          command: go version
+      - run:
+          name: "Show Go Environment"
+          command: go env
